@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Archain Settings</title>
+		<style>
+.key {
+	width: 300px;
+}
+		</style>
+		<script src="../js/settings.js"></script>
+	</head>
+	<body>
+		<h1>Archain Wallet Details</h1>
+		<p>
+			<b>Please note:
+			You are using an pre-release version of the Archain web extension. </b><br>
+			This version is offered in order to allow users to start collating web pages
+			for archiving before the launch of the Archain network.<br>This pre-release product
+			does not reflect the intended quality of the finished system in any way.
+			This browser extension will automatically update as development continues.
+		</p>
+		<br>
+		<p>
+			Enter your wallet details on this page in order to enable archive pre-queueing. 
+			Your details should be entered as they are found on the wallet generation page.
+		</p>
+		<p>
+			If you haven't purchased an Archain wallet yet, you may want to do so by 
+			visiting the <a href="https://www.archain.org" target="_blank">Archain website</a>.
+		</p>
+		<h2>Public key:</h2>
+		<input id="pubkey" class="key">
+		<br>
+		<h2>Private key:</h2>
+		<input id="privkey" class="key" value="Currently not required." disabled>
+		<br>
+		<h2>Pin:</h2>
+		<input id="pin" value="Currently not required." disabled>
+		<br><br>
+		<button id="save">Save</button>
+		<div id="status"></div>
+	</body>
+</html>

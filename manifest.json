@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+	"name": "Archain",
+	"description": "The Archain web extension and client.",
+	"version": "0.0.1",
+
+	"options_page": "ui/settings.html",
+
+	"browser_action": {
+		"default_icon": "img/icon.png",
+		"default_popup": "ui/main.html",
+		"default_title": "Queue for archiving on the Archain!"
+	},
+
+	"permissions": [
+		"storage",
+		"tabs",
+		"https://www.archain.org/"
+	],
+
+	"icons" : { "128" : "img/icon-128.png" }
+}
